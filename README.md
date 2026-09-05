@@ -30,7 +30,7 @@ $$
 Markdown
 ## How to Run
 
-**1. Clone the repository and navigate to the directory**
+1. Clone the repository and navigate to the directory
 ```bash
 git clone [https://github.com/YOUR_USERNAME/n-body-gravitational-simulator.git](https://github.com/YOUR_USERNAME/n-body-gravitational-simulator.git)
 cd n-body-gravitational-simulator
