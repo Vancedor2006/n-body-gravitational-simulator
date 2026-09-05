@@ -27,5 +27,5 @@ $$
 r_{softened} = \sqrt{||\vec{r}||^2 + \epsilon^2}
 $$
 
-Markdown
+
 
