@@ -27,8 +27,31 @@ $$
 r_{softened} = \sqrt{||\vec{r}||^2 + \epsilon^2}
 $$
 
+Markdown
 ## How to Run
 
-1. Clone the repository:
-   ```bash
-   git clone [https://github.com/YOUR_USERNAME/n-body-gravitational-simulator.git](https://github.com/YOUR_USERNAME/n-body-gravitational-simulator.git)
+**1. Clone the repository and navigate to the directory**
+```bash
+git clone [https://github.com/YOUR_USERNAME/n-body-gravitational-simulator.git](https://github.com/YOUR_USERNAME/n-body-gravitational-simulator.git)
+cd n-body-gravitational-simulator
+2. Set up a virtual environment (Optional but recommended)
+
+Bash
+python -m venv venv
+
+# On Windows:
+venv\Scripts\activate
+# On macOS/Linux:
+source venv/bin/activate
+3. Install the required dependencies
+
+Bash
+pip install numpy matplotlib
+4. Execute the simulation
+
+Bash
+python n_body_sim.py
+Note: Running the script will compute the kinematic updates, open a window displaying the Matplotlib 2D orbit, and automatically save a high-resolution orbit.png to your local directory.
+
+
+*(Remember to swap `YOUR_USERNAME` with your actual GitHub username before committing!)*
