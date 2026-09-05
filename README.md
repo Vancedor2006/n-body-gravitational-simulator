@@ -26,6 +26,3 @@ To prevent mathematical singularities (division by zero) when bodies pass extrem
 $$
 r_{softened} = \sqrt{||\vec{r}||^2 + \epsilon^2}
 $$
-
-
-
